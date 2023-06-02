@@ -348,6 +348,21 @@ input, select, textarea {
 		border-bottom-color: rgba(255, 255, 255, 0.2);
 	}
 
+/* Image Wrap */
+
+	.img-wrap {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 50%;
+	}
+	
+	.img-wrap img {
+		max-width: 35%;
+		max-height: 35%;
+	}
+
+
 /* Row */
 
 	.row {
